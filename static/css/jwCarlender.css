@@ -1,0 +1,129 @@
+@charset "utf-8";
+.button {
+	BORDER-RIGHT: #79A5B2 1px solid; 
+	PADDING-RIGHT: 8px; 
+	BORDER-TOP: #79A5B2 1px solid; 
+	PADDING-LEFT: 8px; 
+	FONT-SIZE: 13px; 
+	background-color: #FAFAFA;
+	BORDER-LEFT: #79A5B2 1px solid; 
+	CURSOR: pointer; 
+	COLOR: black; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: #79A5B2 1px solid;
+}
+
+.CourseFormTable {
+	BORDER-LEFT: #a4d9ff 1px solid;
+	BORDER-RIGHT: #a4d9ff 1px solid;
+	BORDER-TOP: #a4d9ff 1px solid;
+	BORDER-BOTTOM: #a4d9ff 1px solid;
+	border-collapse: collapse;
+	width: 98%;
+	FONT-SIZE: 12px;
+	background: #FAFAFA;
+	
+}
+.CourseFormTable .firstHiddenTd{
+  border: 1px #98b1c8 solid;
+  font-weight: bold;
+  BORDER-RIGHT: #a4d9ff 0px;
+  BORDER-BOTTOM: #a4d9ff 0px;
+  width: 0px !important;
+  width: 1px !important;
+  FONT-SIZE: 0px;
+}
+th.firstHiddenTd{
+  height: 0px;
+  height: 0px !important;
+}
+.CourseFormTable .spanFloatRight{
+  font-size: 12px;
+  font-weight: normal;
+  float: right;
+}
+.CourseFormTable caption{
+  border: 1px #98b1c8 solid;
+  font-size: 14px;
+  height: 40px !important;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+}
+
+.CourseFormTable td{
+  border: 1px #98b1c8 solid;
+  height: 28px !important;
+  width: 128px;
+  text-align:center;
+}
+td.firstHiddenTd{
+  height: 38px;
+  height: 38px !important;
+}
+
+.CourseFormTable td .fcSpanDiv{
+  height:5px; 
+  width:5px; 
+  /**background-color:#FFCC66; */
+  FONT-SIZE: 12px !important;
+}
+.CourseFormTable .NotFixCourseTableTd{
+    width: auto !important;
+}
+.CourseFormTable th{
+  border: 1px #98b1c8 solid;
+  font-weight: normal;
+  font-size: 14px;
+  height: 28px;
+  color: black;
+  text-align:center;
+  vertical-align:bottom;
+  
+}
+.CourseFormTable .Noon{
+  vertical-align:middle !important;
+  text-align:center;
+  font-size:14px;
+  
+}
+.CourseFormTable .Comment{
+  vertical-align:middle !important;;
+  text-align:left;
+  font-size:12px;
+  font-style:italic;
+  width: auto !important;
+}
+.CourseFormTable .Comment div{
+  vertical-align:middle !important;;
+  text-align:left;
+  font-size: 12px !important;
+  font-style:italic;
+  width: 89%;
+}
+.NoFitCourse{
+	BORDER-LEFT: #a4d9ff 1px solid;
+	BORDER-RIGHT: #a4d9ff 1px solid;
+	BORDER-TOP: #a4d9ff 1px solid;
+	BORDER-BOTTOM: #a4d9ff 1px solid;
+	border-collapse: collapse;
+	FONT-SIZE: 14px;
+	background: #FAFAFA;
+	width: 100%;
+}
+
+.NoFitCourse caption{
+  border: 1px #98b1c8 solid;
+  font-size: 14px;
+  height: 20px;
+  color: black;
+}
+
+.NoFitCourse th{ 
+  border: 1px #98b1c8 solid;
+  font-size: 14px;
+  height: 20px;
+  color: black;
+  text-align:center;
+  vertical-align:bottom;
+}

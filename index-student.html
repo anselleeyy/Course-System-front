@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>南京晓庄学院课程中心 - 学生中心</title>
+		<link rel="stylesheet" type="text/css" href="static/admin/layui/css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="static/admin/css/admin.css"/>
+	</head>
+	<body>
+		<div class="main-layout" id='main-layout'>
+			<!--侧边栏-->
+			<div class="main-layout-side">
+				<div class="m-logo"></div>
+				<ul class="layui-nav layui-nav-tree" lay-filter="leftNav">
+					<li class="layui-nav-item layui-nav-itemed">
+						<a href="javascript:;"><i class="layui-icon uifont">&#xe609;</i>首页</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;"><i class="layui-icon uifont">&#xe60a;</i>课程中心</a>
+				    	<dl class="layui-nav-child">
+				    		<dd><a href="javascript:;" data-url="course-center.html" data-id='2' id="disab" data-text="选课中心"><i class="layui-icon uifont ll-line">&#xe632;</i>选课中心</a></dd>
+				      		<dd><a href="javascript:;" data-url="course-list.html" data-id='3' data-text="已选课程"><i class="layui-icon uifont ll-line">&#xe615;</i>已选课程</a></dd>
+				      		<dd><a href="javascript:;" data-url="course-table.html" data-id='9' data-text="课表查询"><i class="layui-icon uifont ll-line">&#xe62a;</i>课表查询</a></dd>
+				    	</dl>
+					</li>
+					<li class="layui-nav-item">
+				    	<a href="javascript:;" data-url="personal-info.html" data-id='5' data-text="修改密码"><i class="layui-icon uifont">&#xe614;</i>修改密码</a>
+				  </li>
+				</ul>
+			</div>
+			<!--右侧内容-->
+			<div class="main-layout-container">
+				<!--头部-->
+				<div class="main-layout-header">
+					<div class="menu-btn" id="hideBtn">
+						<a href="javascript:;">
+							<span class="iconfont">&#xe60e;</span>
+						</a>
+					</div>
+					<ul class="layui-nav" lay-filter="rightNav">
+					  <li class="layui-nav-item">
+					    <a id="loginName" href="javascript:;"></a>
+					  </li>
+					  <li class="layui-nav-item"><a href="javascript:;" onclick="logout()">退出</a></li>
+					</ul>
+				</div>
+				<!--主体内容-->
+				<div class="main-layout-body">
+					<!--tab 切换-->
+					<div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
+					  <ul class="layui-tab-title">
+					    <li class="layui-this welcome"> 课程管理系统 </li>
+					  </ul>
+					  <div class="layui-tab-content">
+					    <div class="layui-tab-item layui-show" style="background: #f5f5f5;">
+					    	<!--1-->
+					    	<!--<iframe src="welcomeXK.html" width="100%" height="100%" name="iframe" scrolling="auto" class="iframe" framborder="0"></iframe>-->
+					    	<!--1end-->
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<!--遮罩-->
+			<div class="main-mask">
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			var scope={
+				link:'./welcome.html'
+			}
+		</script>
+		<script src="static/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/admin/js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/admin/js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="static/js/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="static/js/student.js"></script>
+		<script src="static/js/logout.js"></script>
+		
+	</body>
+</html>
